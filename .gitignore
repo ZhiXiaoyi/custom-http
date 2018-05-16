@@ -76,7 +76,7 @@ local.properties
 # CDT-specific (C/C++ Development Tooling)
 .cproject
 
-# CDT- autotools
+# CDT- autotools 
 .autotools
 
 # Java annotation processor (APT)
@@ -104,7 +104,16 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
-### Java template
+### SVN template
+.svn/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen### Java template
 # Compiled class file
 *.class
 
